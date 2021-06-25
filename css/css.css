@@ -1,8 +1,19 @@
+/* برای تعریف فونت بهتر است از 
+
+    @font-face
+
+    استفاده کنید. چون به این شکل فونت فقط برای تگ بادی قابل استفاده هست. 
+*/
+
+
+
+
 body{
     background-color: #D3D3D3;
     color: #000000;
     direction: rtl;
     font-family:'Vazir';
+    /* use @font-face */
     src: url(../fonts/Vazir.woff);
     text-align: justify;
 }
