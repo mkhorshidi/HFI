@@ -1,0 +1,14 @@
+body{
+    background-color: #D3D3D3;
+    color: #000000;
+    direction: rtl;
+    font-family:'Vazir';
+    src: url(../fonts/Vazir.woff);
+    text-align: justify;
+}
+h2 p{
+    color: #2F4F4F;
+}
+a{
+    text-decoration: none;
+}
