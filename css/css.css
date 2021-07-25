@@ -1,14 +1,101 @@
 body{
-    background-color: #D3D3D3;
-    color: #000000;
-    direction: rtl;
-    font-family:'Vazir';
-    src: url(../fonts/Vazir.woff);
-    text-align: justify;
+      background-color: #ffffff;
+      color: #000000;
+      direction: rtl;
+      text-align: center;
+    }
+    @font-face {
+        font-family:'Vazir';
+        src: url(../fonts/Vazir.woff);
+    }
+      
+    .google{
+        width: auto;
+        height: 44px;
+        max-width: 584px;
+        display: flex;
+        justify-content: center;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: rgb(223, 225, 229);
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: rgb(223, 225, 229);
+        border-top-width: 1px; 
+        border-top-style: solid;
+        border-top-color: rgb(223, 225, 229);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(223, 225, 229);
+        box-shadow: none;
+        border-radius: 24px;
+        z-index: 3;
+        margin: 0 auto;
+    }
+.search{
+    width: auto;
+    height: 44px;
 }
-h2 p{
-    color: #2F4F4F;
+.type-search{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -5px;
+    height: 34px;
+    font-size: 16px;
 }
-a{
-    text-decoration: none;
+.icon-google{
+    display: block;
+    margin: 100px auto;
+}
+.icon-search{
+    margin-top: 10px;
+    margin-right: 730px;
+    height: 18px;
+    width: 18px;
+}
+/* .button{
+    margin-top: 18px;
+    top: 53px;
+    z-index: 0;
+} */
+.google-search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 110px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 170px;
+    text-align: center;
+    cursor: pointer;
+}
+.feeling{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 110px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 170px;
+    text-align: center;
+    cursor: pointer;
+}
+.google-search:hover{
+    color: #c4c4c4;
+    box-shadow: 2px 2px 5px 5px;
+}
+.feeling:hover{
+    color: #c4c4c4;
+    box-shadow: 2px 2px 5px 5px;
 }
