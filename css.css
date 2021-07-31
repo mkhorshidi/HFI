@@ -1,0 +1,31 @@
+
+
+.pagination{
+    direction: rtl;
+    background: linear-gradient(to right,#ffb03d,#ee5085);
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 10px 0px;
+    direction: rtl;
+}
+.first-column{
+    width: 150px !important;
+}
+.a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    color: white;
+}
+.number:hover{
+    background-color: #fff;
+    color: #ea1e65;
+}

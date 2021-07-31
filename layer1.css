@@ -1,0 +1,27 @@
+
+.center{
+    direction: rtl;
+    padding: 0px;
+    margin-top: 1rem !important;
+    float: left;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.left{
+    padding: 0px;
+    margin-top: 1rem !important;
+}
+.right{
+    padding: 0px;
+    margin-top: 20px !important;
+    margin-left: 110px !important;
+    float: right;
+}
+.box-center-text{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
